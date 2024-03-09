@@ -1,0 +1,106 @@
+body {
+    font-family: "Antonio", sans-serif;
+    color: #0A2463;
+    background-color: #F2F8F4;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weatherform {
+    margin: 10px 0px;
+}
+
+.cityInput {
+    font-family: "Antonio", sans-serif;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: 2px solid #0A2463;
+    border: 2px solid #0A2463;
+    color: #0A2463;
+    border-radius: 10px;
+    margin: 10px 0px;
+    width: 300px;
+}
+
+button[type="submit"] {
+    font-family: "Antonio", sans-serif;
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    background-color: #809BCE;
+    color: #0A2463;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid #809BCE;
+}
+
+button[type="submit"]:hover {
+    background-color: #5D80C0;
+    border: 2px solid #5D80C0;
+}
+
+.card {
+    background: #D6EADF;
+    padding: 50px;
+    box-shadow: 2px 2px 5px grey;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+h1{
+    margin: 0px;
+    font-weight: 700 !important;
+    font-size: 4rem !important;
+}
+
+p{
+    font-size: 2rem;
+    margin: 5px 0px;
+    font-weight: 100;
+}
+
+.cityDisplay, .tempDisplay {
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.humidityDisplay{
+    margin-bottom: 25px;
+}
+
+.descDisplay {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.weatherEmoji {
+    margin: 10px;
+    padding: 0px 20px 20px 20px;
+    line-height: 150px;
+    height: 175px;
+    border-radius: 1000px;
+    font-size: 10rem;
+    background-color: #5D80C0;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.errorDisplay {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+h6 {
+    font-size: 1rem;
+    margin: 10px;
+    font-weight: 300;
+}
